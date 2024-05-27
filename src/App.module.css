@@ -10,6 +10,7 @@
   height: 70px;
   background-color: green;
   justify-content: space-between;
+  color: aliceblue;
 }
 
 .header_div {
@@ -22,6 +23,45 @@
 
 .mainpage_container {
   display: flex;
+}
+
+.navbar_container {
+  width: 10%;
+}
+
+
+.sign_up_button, .sign_in_button {
+  width: 80px;
+  height: 30px;
+  border-radius: 10%;
+}
+
+.addtask_form button:hover{
+  background-color: aquamarine;
+  box-shadow: inset 0 0 0 1px #3a7999;
+}
+
+.addtask_container {
+  display: block;
+}
+
+.addtask_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%; 
+}
+
+.addtask_form button {
+  width: 100%;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.addtask_submit {
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
 }
 
 .footer {

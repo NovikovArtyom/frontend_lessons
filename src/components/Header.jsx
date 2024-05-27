@@ -10,13 +10,8 @@ export function Header() {
         </div>
 
         <div className={styles.header_div}>
-        <a href="/" alt="" style={{margin: 10}}>
-          SIGN UP
-        </a>
-
-        <a href="/" alt="">
-          SIGN IN
-        </a>
+          <button className={styles.sign_up_button}>SIGN UP</button>
+          <button className={styles.sign_in_button}>SIGN IN</button>
         </div>
     </div>
     </>
